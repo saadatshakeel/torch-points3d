@@ -28,7 +28,6 @@ from torch_points3d.visualization import Visualizer
 
 # PyTorch Profiler import
 import torch.profiler
-import torch.autograd.profiler
 from contextlib import nullcontext
 
 log = logging.getLogger(__name__)
